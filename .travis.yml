@@ -7,7 +7,7 @@ services:
   - neo4j
 
 install:
-  - rvm install jruby
+  #- rvm install jruby
   - gem install neo4j
 
 script:
