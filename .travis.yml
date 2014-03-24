@@ -6,8 +6,8 @@ rvm:
 services:
   - neo4j
 
-before_install:
-  - rvm use jruby
+#before_install:
+#  - rvm use jruby
 
 install:
   #- rvm install jruby
