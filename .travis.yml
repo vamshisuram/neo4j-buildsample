@@ -1,14 +1,10 @@
 language: ruby
 
 rvm:
-  - 2.1.1
+  - jruby-1.7.9
 
 services:
   - neo4j
-
-before_install:
-  #- rvm install jruby
-  - rvm use jruby
 
 install:
   - gem install neo4j
